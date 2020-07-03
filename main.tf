@@ -4,7 +4,7 @@ provider "aws" {
 
 variable "instancetype" {
   type = string
-  default = "t2.large"
+  default = "t2.small"
 }
 
 variable "userdata" {
