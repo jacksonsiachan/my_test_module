@@ -9,7 +9,7 @@ variable "instancetype" {
 
 variable "userdata" {
   type = number
-
+  default = 2
 }
 
 resource "aws_instance" "web" {
